@@ -7,6 +7,12 @@ class Kotak {
 	public int volume() {
 	 return panjang*lebar*tinggi;
 	}
+	public Kotak() {
+		System.out.println("Ini adalah constructor class Kotak");
+		panjang = 3;
+		lebar = 3;
+		tinggi = 3;
+	}
 	
 	public static void main(String [] args) {
 		Kotak kotak = new Kotak();
